@@ -17,3 +17,6 @@ Links:
 ## Contributors
 - Mark Ellis, [@ellismarkf](https://github.com/ellismarkf), Stardog Union
 - Vladimir Alexiev, [@VladimirAlexiev](https://github.com/VladimirAlexiev), Ontotext Corp
+
+## Build
+First checkout the highlight.js code then simplink these files to the `src/languages` directory of that repository and run `node tools/build.js turtle typescript javascript json sparql` (or other languages as you prefer).

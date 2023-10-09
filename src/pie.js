@@ -6,7 +6,7 @@ Description: GraphDB Rules language for semantic reasoning
 Website: http://graphdb.ontotext.com/documentation/standard/reasoning.html
 */
 
-function(hljs) {
+export default function(hljs) {
   var KEYWORDS = {
     begin: /^(Prefices|Axioms|Rules)/, end: /\s*\{/,
     keywords: 'Prefices|20 Axioms|10 Rules|10'
